@@ -50,7 +50,8 @@ public class LaplaceDeterminant {
         for(i = 0; i < n; i++) { // wypełniamy go numerami kolumn
             WK[i] = i;
         }
+        
         System.out.println();
-        System.out.println(det(n, 0, WK, A)); // obliczamy i wyświetlamy wyznac
+        System.out.println(det(n, 0, WK, A));
     }
 }
